@@ -1,0 +1,119 @@
+{
+  "title": "Sample City Emergency Road Network",
+  "nodes": [
+    {
+      "name": "Central Station",
+      "type": "Emergency Station",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Market Junction",
+      "type": "Junction",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "name": "River Bridge",
+      "type": "Junction",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "name": "City Hospital",
+      "type": "Hospital",
+      "x": 6,
+      "y": 0
+    },
+    {
+      "name": "School Junction",
+      "type": "Junction",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "name": "North Road",
+      "type": "Junction",
+      "x": 3,
+      "y": 4
+    },
+    {
+      "name": "Community Clinic",
+      "type": "Hospital",
+      "x": 5,
+      "y": 4
+    }
+  ],
+  "roads": [
+    {
+      "from": "Central Station",
+      "to": "Market Junction",
+      "time": 4,
+      "distance": 2.0,
+      "blocked": false
+    },
+    {
+      "from": "Market Junction",
+      "to": "River Bridge",
+      "time": 3,
+      "distance": 1.5,
+      "blocked": false
+    },
+    {
+      "from": "River Bridge",
+      "to": "City Hospital",
+      "time": 4,
+      "distance": 2.0,
+      "blocked": false
+    },
+    {
+      "from": "Central Station",
+      "to": "School Junction",
+      "time": 5,
+      "distance": 2.5,
+      "blocked": false
+    },
+    {
+      "from": "School Junction",
+      "to": "North Road",
+      "time": 3,
+      "distance": 1.5,
+      "blocked": false
+    },
+    {
+      "from": "North Road",
+      "to": "Community Clinic",
+      "time": 3,
+      "distance": 1.5,
+      "blocked": false
+    },
+    {
+      "from": "Community Clinic",
+      "to": "River Bridge",
+      "time": 5,
+      "distance": 2.0,
+      "blocked": false
+    },
+    {
+      "from": "Market Junction",
+      "to": "North Road",
+      "time": 6,
+      "distance": 3.0,
+      "blocked": false
+    },
+    {
+      "from": "School Junction",
+      "to": "Market Junction",
+      "time": 4,
+      "distance": 2.0,
+      "blocked": false
+    },
+    {
+      "from": "Community Clinic",
+      "to": "City Hospital",
+      "time": 4,
+      "distance": 2.0,
+      "blocked": false
+    }
+  ]
+}
