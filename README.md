@@ -1,3 +1,12 @@
+# Group 2 Members
+
+Adhithya Subash (CCE23CS007) 
+Adith V A (CCE23CS008) 
+Adithyan C P (CCE23CS009) 
+Agatha Varghese (CCE23CS010) 
+Agnel Chackochan (CCE23CS011) 
+Agnes Reejo Parayil (CCE23CS012)
+
 # Emergency Response Route Assistant (SDG 3 & SDG 11)
 
 A small educational AI prototype that finds routes through a simulated city road network. It demonstrates an intelligent agent, graph search, constraint checking, logic-based explanations, testing, and an interactive Streamlit frontend.
